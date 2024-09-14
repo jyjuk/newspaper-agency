@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+  <h1> News {{ object.title }}<a class= btn-secondary" style="float: right" href="{% url 'newspaper:newspaper-update' pk=object.id %}"> Edit</a></h1>
+  <p><strong>publishers</strong> {{ object.display_authors }}</p>
+  <p><strong>published_date</strong> {{ object.published_date }}</p>
+  <div class="ml-3">
+    <h3>Texts:</h3>
+    {% if object.context %}
+      <p>{{ object.context }}</p>
+    {% else %}
+      <p>No write text for news</p>
+    {% endif %}
+  </div>
+{% endblock %}
