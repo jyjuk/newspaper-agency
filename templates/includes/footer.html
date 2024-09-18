@@ -1,0 +1,40 @@
+{% load static %}
+<!-- -------- START FOOTER 5 w/ DARK BACKGROUND ------- -->
+<footer class="footer py-5">
+  <div class="container z-index-1 position-relative">
+    <div class="row">
+      <div class="col-lg-4 me-auto mb-lg-0 mb-4 text-lg-start text-center">
+        <ul class="nav flex-row ms-n3 justify-content-lg-start text-center justify-content-center mb-4 mt-sm-0">
+          <p>
+            &copy; <a href="https://mate.academy/"
+                      target="_blank">Havrylyshyn Ivan</a> - Mate
+            Academy.
+          </p>
+        </ul>
+      </div>
+      {% if request.path == '/' %}
+
+        <div class="col-lg-4 ms-auto text-lg-end text-center">
+
+          <p style="text-align: center;">You have visited this page {{ num_visits }}
+            time{{ num_visits|pluralize }}.</p>
+
+          <hr class="vertical dark">
+        </div>
+      {% endif %}
+      <div class="col-lg-4 ms-auto text-lg-end text-center">
+        <a href="javascript:;" target="_blank" class="text-dark me-xl-4 me-4 opacity-5">
+          <span class="fab fa-linkedin"></span>
+        </a>
+        <a href="javascript:;" target="_blank" class="text-dark me-xl-4 me-4 opacity-5">
+          <span class="fab fa-facebook"></span>
+        </a>
+        <a href="javascript:;" target="_blank" class="text-dark opacity-5">
+          <span class="fab fa-github"></span>
+        </a>
+      </div>
+
+      </ul>
+    </div>
+  </div>
+</footer>
