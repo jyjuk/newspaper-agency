@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     "crispy_forms",
     "crispy_bootstrap4",
 
+
 ]
 
 MIDDLEWARE = [
@@ -126,9 +127,15 @@ STATICFILES_DIRS = [
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
+
 AUTH_USER_MODEL = "newspaper.Redactor"
 
-LOGIN_URL = "login"
+LOGIN_URL = "/accounts/login/"
+
+
+AUTHENTICATION_BACKENDS = ["django.contrib.auth.backends.ModelBackend"]
+
+#LOGIN_URL = "login"
 
 LOGIN_REDIRECT_URL = "/newspaper/"
 

@@ -73,7 +73,7 @@ class TopicDeleteView(LoginRequiredMixin, generic.DeleteView):
     success_url = reverse_lazy("newspaper:topics-list")
 
 
-class NewspaperListView(generic.ListView):
+class NewspaperListView(LoginRequiredMixin, generic.ListView):
     model = Newspaper
     template_name = "newspaper/newspaper_list.html"
     context_object_name = "newspaper_list"
@@ -119,7 +119,7 @@ class NewspaperDeleteView(LoginRequiredMixin, generic.DeleteView):
     success_url = reverse_lazy("newspaper:newspapers-list")
 
 
-class RedactorsListView(generic.ListView):
+class RedactorsListView(LoginRequiredMixin, generic.ListView):
     model = Redactor
     template_name = "newspaper/redactors_list.html"
     context_object_name = "redactors_list"
