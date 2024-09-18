@@ -5517,19 +5517,19 @@ fieldset:disabled .btn {
 }
 
 .pagination {
-  --bs-pagination-padding-x: 0.75rem;
-  --bs-pagination-padding-y: 0.375rem;
+  --bs-pagination-padding-x: 1rem;
+  --bs-pagination-padding-y: 0.5rem;
   --bs-pagination-font-size: 1rem;
   --bs-pagination-color: #cb0c9f;
-  --bs-pagination-bg: #fff;
+  --bs-pagination-bg: #f8f9a;
   --bs-pagination-border-width: 1px;
   --bs-pagination-border-color: #dee2e6;
   --bs-pagination-border-radius: 0.5rem;
   --bs-pagination-hover-color: #830866;
-  --bs-pagination-hover-bg: #e9ecef;
+  --bs-pagination-hover-bg: #f1f1f1;
   --bs-pagination-hover-border-color: #dee2e6;
   --bs-pagination-focus-color: #830866;
-  --bs-pagination-focus-bg: #e9ecef;
+  --bs-pagination-focus-bg: #f1f1f1;
   --bs-pagination-focus-box-shadow: 0 0 0 0.2rem rgba(203, 12, 159, 0.25);
   --bs-pagination-active-color: #fff;
   --bs-pagination-active-bg: #cb0c9f;
@@ -5541,7 +5541,6 @@ fieldset:disabled .btn {
   padding-left: 0;
   list-style: none;
 }
-
 .page-link {
   position: relative;
   display: block;
@@ -23706,24 +23705,24 @@ html {
   color: #8392AB;
   padding: 0;
   margin: 0 3px;
-  border-radius: 50% !important;
-  width: 36px;
+  border-radius: 7px !important;
+  width: 100px;
   height: 36px;
   font-size: 0.875rem;
 }
 
 .pagination-lg .page-item .page-link,
 .pagination-lg .page-item span {
-  width: 46px;
-  height: 46px;
-  line-height: 46px;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
 }
 
 .pagination-sm .page-item .page-link,
 .pagination-sm .page-item span {
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
 }
 
 .pagination.pagination-primary .page-item.active>.page-link,
@@ -26609,5 +26608,32 @@ pre[class*="language-"] {
     overflow: auto !important;
   }
 }
+.pagination .page-link {
+  border-radius: 0; /* Знімаємо заокруглення */
+  padding: 10px 20px; /* Збільшуємо відступи */
+  background-color: #4CAF50; /* Зелений колір */
+  color: white;
+  font-size: 16px;
+}
 
+
+
+.btn, .page-link {
+  border-radius: 0;
+}
+
+.pagination .btn, .pagination .page-link {
+  border-radius: 0;
+  /* Add other desired styles here */
+  background-color: #f0f0f0;
+  color: #333;
+  padding: 10px 20px;
+}
+.pagination .btn, .pagination .page-link {
+  border-radius: 0;
+}
 /*# sourceMappingURL=kit-free.css.map */
+.pagination-centered {
+    display: flex;
+    justify-content: center;
+  }
