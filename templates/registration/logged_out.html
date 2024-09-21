@@ -1,0 +1,71 @@
+{% extends 'layouts/base_sections.html' %}
+{% load static %}
+
+{% block title %} Soft UI Design System by Havrylyshyn Ivan {% endblock title %}
+{% block body %} class="sign-in-illustration" {% endblock body %}
+
+{% block header %}
+
+  {% include 'includes/navigation.html' %}
+
+{% endblock header %}
+
+{% block content %}
+
+  <section>
+    <div class="page-header min-vh-100">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-4 col-lg-5 col-md-7 d-flex flex-column mx-lg-0 mx-auto">
+            <div class="card card-plain">
+              <h4 class="font-weight-bolder mb-0 text-center">You are Logout</h4>
+              <div class="card-body">
+                <form method="post" action="#" role="form">
+                  {% csrf_token %}
+
+                  {% if form.non_field_errors %}
+                    {% for error in form.non_field_errors %}
+                      <span class="text-danger"> {{ error }} </span>
+                    {% endfor %}
+                  {% endif %}
+
+                  {% for field in form %}
+                    <div class="mb-3">
+                      {{ field }}
+                    </div>
+                    <span class="text-danger"> {{ field.errors }} </span>
+                  {% endfor %}
+
+
+                  <div class="text-center">
+                    <a href="{% url 'login' %}" class="btn btn-lg bg-gradient-primary btn-lg w-100 mt-4 mb-0">Sign
+                      in Again</a>
+
+                  </div>
+                </form>
+              </div>
+
+            </div>
+          </div>
+          <div
+              class="col-6 d-lg-flex d-none h-100 my-auto pe-0 position-absolute top-0 end-0 text-center justify-content-center flex-column">
+            <div
+                class="position-relative bg-gradient-primary h-100 m-3 px-7 border-radius-lg d-flex flex-column justify-content-center">
+              <img src="{% static 'img/shapes/pattern-lines.svg' %}" alt="pattern-lines"
+                   class="position-absolute opacity-4 start-0">
+              <div class="position-relative">
+                <img class="max-width-500 w-100 position-relative z-index-2"
+                     src="{% static 'img/illustrations/chat.png' %}">
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+{% endblock content %}
+
+
+
