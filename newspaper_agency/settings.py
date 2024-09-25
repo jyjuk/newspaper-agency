@@ -146,6 +146,7 @@ LOGIN_REDIRECT_URL = "/"
 
 INTERNAL_IPS = [
     "127.0.0.1",
+    "https://newspaper-agency-vklt.onrender.com/"
 ]
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
