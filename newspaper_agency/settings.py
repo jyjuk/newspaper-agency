@@ -28,7 +28,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get("DJANGO_DEBUG", "") != "False"
 
-ALLOWED_HOSTS = ["127.0.0.1"]
+ALLOWED_HOSTS = ["127.0.0.1",
+                 "newspaper-agency-vklt.onrender.com",
+                 ]
 
 # Application definition
 
@@ -144,10 +146,7 @@ AUTHENTICATION_BACKENDS = ["django.contrib.auth.backends.ModelBackend"]
 
 LOGIN_REDIRECT_URL = "/"
 
-INTERNAL_IPS = [
-    "127.0.0.1",
-    "https://newspaper-agency-vklt.onrender.com/"
-]
+INTERNAL_IPS = ["127.0.0.1"]
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
