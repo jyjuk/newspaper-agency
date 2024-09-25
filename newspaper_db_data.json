@@ -1,0 +1,516 @@
+{
+  "Model1": [
+    {
+      "model": "newspaper.topic",
+      "pk": 4,
+      "fields": {
+        "name": "Art"
+      }
+    },
+    {
+      "model": "newspaper.topic",
+      "pk": 3,
+      "fields": {
+        "name": "Bussines"
+      }
+    },
+    {
+      "model": "newspaper.topic",
+      "pk": 2,
+      "fields": {
+        "name": "Crime"
+      }
+    },
+    {
+      "model": "newspaper.topic",
+      "pk": 13,
+      "fields": {
+        "name": "Culture"
+      }
+    },
+    {
+      "model": "newspaper.topic",
+      "pk": 19,
+      "fields": {
+        "name": "Ecology"
+      }
+    },
+    {
+      "model": "newspaper.topic",
+      "pk": 16,
+      "fields": {
+        "name": "Economy"
+      }
+    },
+    {
+      "model": "newspaper.topic",
+      "pk": 18,
+      "fields": {
+        "name": "Entertainment"
+      }
+    },
+    {
+      "model": "newspaper.topic",
+      "pk": 17,
+      "fields": {
+        "name": "Health"
+      }
+    },
+    {
+      "model": "newspaper.topic",
+      "pk": 1,
+      "fields": {
+        "name": "Politics"
+      }
+    },
+    {
+      "model": "newspaper.topic",
+      "pk": 15,
+      "fields": {
+        "name": "Science"
+      }
+    },
+    {
+      "model": "newspaper.topic",
+      "pk": 12,
+      "fields": {
+        "name": "Sport"
+      }
+    },
+    {
+      "model": "newspaper.topic",
+      "pk": 14,
+      "fields": {
+        "name": "Techno"
+      }
+    },
+    {
+      "model": "newspaper.topic",
+      "pk": 5,
+      "fields": {
+        "name": "Trade"
+      }
+    },
+    {
+      "model": "newspaper.topic",
+      "pk": 6,
+      "fields": {
+        "name": "Weather"
+      }
+    }
+  ],
+  "Model2": [
+    {
+      "model": "newspaper.newspaper",
+      "pk": 18,
+      "fields": {
+        "title": "5 Ways to Find a Planet",
+        "context": "Radial Velocity\r\nWatching for Wobble\r\n1092 planets discovered\r\nTransit\r\nSearching for Shadows\r\n4287 planets discovered\r\nDirect Imaging\r\nTaking Pictures\r\n82 planets discovered\r\nGravitational Microlensing\r\nLight in a Gravity Lens\r\n225 planets discovered\r\nAstrometry\r\nMinuscule Movements\r\n3 planets discovered",
+        "published_date": "2024-09-19T10:11:04.494Z",
+        "topic": 15,
+        "publishers": [
+          16
+        ]
+      }
+    },
+    {
+      "model": "newspaper.newspaper",
+      "pk": 17,
+      "fields": {
+        "title": "Chinese firms use cloud loophole to access US AI tech",
+        "context": "Chinese organisations are utilising cloud services from Amazon and its competitors to gain access to advanced US AI chips and capabilities that they cannot otherwise obtain, according to a Reuters report based on public tender documents.\r\n\r\nIn a comprehensive investigation, Reuters revealed how Chinese cloud access to US AI chips is facilitated through intermediaries. Over 50 tender documents posted in the past year revealed that at least 11 Chinese entities have sought access to restricted US technologies or cloud services. Four of these explicitly named Amazon Web Services (AWS) as a cloud service provider, though accessed through Chinese intermediaries rather than directly from AWS.",
+        "published_date": "2024-09-19T10:09:04.529Z",
+        "topic": 14,
+        "publishers": [
+          12
+        ]
+      }
+    },
+    {
+      "model": "newspaper.newspaper",
+      "pk": 16,
+      "fields": {
+        "title": "Apple just announced: iPhone 16",
+        "context": "Apple just unveiled the iPhone 16 Pro and the iPhone 16 Pro Max, which join the iPhone 16 and iPhone 16 Plus the company announced earlier. These are Apple’s more premium phones that have nicer screens and cameras than the regular models.\r\n\r\nApple’s iPhone 16 Pro has a 6.3-inch display, and the Apple 16 Pro Max has a 6.9-inch display, larger than those of previous models, which measured in at 6.1 inches and 6.7 inches, respectively. The new models also have the “thinnest borders on any Apple product,” Apple said, calling them “by far our best iPhone displays ever.” The titanium is nearly half the weight of stainless steel and is “more scratch resistant than other forms of titanium others have used.”\r\n\r\nThe four finishes include white, black, natural and “desert.”",
+        "published_date": "2024-09-19T10:06:03.125Z",
+        "topic": 14,
+        "publishers": [
+          14
+        ]
+      }
+    },
+    {
+      "model": "newspaper.newspaper",
+      "pk": 15,
+      "fields": {
+        "title": "Money Is Art in an Exhibition",
+        "context": "Titled “Money Talks: Art, Society and Power,” the show features more than 100 items—including paintings, sculptures, coins and banknotes—from a variety of cultures and time periods. Coins dating to the Roman Empire are on display; so are more recent works by artists like Andy Warhol, Joseph Beuys, the Guerrilla Girls and Banksy.\r\n\r\n“Although money is not usually considered an art form, the two have interacted and informed each other in many ways and from the beginning of time,” says Xa Sturgis, director of the Ashmolean, in a statement. “Including a range of dynamic and striking objects, ‘Money Talks’ challenges our views of how money comes to be in our pockets and what happens to it and with it.”",
+        "published_date": "2024-09-19T10:04:00.724Z",
+        "topic": 13,
+        "publishers": [
+          16
+        ]
+      }
+    },
+    {
+      "model": "newspaper.newspaper",
+      "pk": 14,
+      "fields": {
+        "title": "The Inside Story of the Beatles’ Messy Breakup",
+        "context": "Fifty years ago, when Paul McCartney announced he had left the Beatles, the news dashed the hopes of millions of fans, while fueling false reunion rumors that persisted well into the new decade.\r\n\r\nIn a press release, on April 10, 1970, for his first solo album, “McCartney,” he leaked his intention to leave. In doing so, he shocked his three bandmates.\r\n\r\nThe Beatles had symbolized the great communal spirit of the era. How could they possibly come apart?\r\n\r\nFew at the time were aware of the underlying fissures. The power struggles in the group had been mounting at least since their manager, Brian Epstein, died in August of 1967.",
+        "published_date": "2024-09-19T10:02:38.223Z",
+        "topic": 13,
+        "publishers": [
+          19
+        ]
+      }
+    },
+    {
+      "model": "newspaper.newspaper",
+      "pk": 13,
+      "fields": {
+        "title": "Italy 1-2 England",
+        "context": "Kane wrote his name into the history books in the 44th minute when he beat Gianluigi Donnarumma from the penalty spot for his 54th goal, overtaking previous record holder Wayne Rooney.\r\n\r\nDeclan Rice gave England an early lead when he scored from close range after Kane's shot was blocked before the captain put memories of his penalty miss against France in the World Cup quarter-final in Qatar aside with an emphatic spot-kick.\r\n\r\nItaly, whistled off at half-time in their first international in Naples for a decade, improved as England became sloppy.",
+        "published_date": "2024-09-19T09:59:45.367Z",
+        "topic": 12,
+        "publishers": [
+          15,
+          16
+        ]
+      }
+    },
+    {
+      "model": "newspaper.newspaper",
+      "pk": 12,
+      "fields": {
+        "title": "Olympic Medals Feature Fragments of the Eiffel Tower",
+        "context": "Officials have unveiled the gold, silver and bronze medals that will be awarded at this summer’s Olympic games in Paris, and each one contains a unique souvenir: a fragment of scrap iron from the Eiffel Tower.\r\n\r\n“It’s the opportunity for the athletes to bring back a piece of Paris with them,” Thierry Reboul, creative director of Paris 2024, told reporters last week, per BBC News. “The absolute symbol of Paris and France is the Eiffel Tower.”\r\n\r\nDesigned by Gustave Eiffel, the Eiffel Tower opened in 1889 after roughly two years of construction. Since then, the landmark has undergone extensive renovations, “with some of the original iron cut off and preserved over time,” as Artnet’s Adam Schrader writes. Now, some of those preserved metal fragments have found new homes.\r\n\r\nEach new Olympic medal features a piece of Eiffel Tower iron—though the signature “Eiffel Tower brown” paint, which the structure has sported since 1968, has been removed. These pieces have been shaped into hexagons (the “geometric shape of France,” according to the games’ official website) and engraved with the words “Paris 2024,” the Olympic rings and the Games logo, “which looks like a flame or the face of a woman with a chic bob haircut,” as John Leicester of the Associated Press (AP) writes.",
+        "published_date": "2024-09-19T09:56:31.478Z",
+        "topic": 12,
+        "publishers": [
+          15
+        ]
+      }
+    },
+    {
+      "model": "newspaper.newspaper",
+      "pk": 11,
+      "fields": {
+        "title": "Did Rembrandt Have Help With His Paintings?",
+        "context": "Rembrandt van Rijn was the definition of an “old master”—a painter so deft, his portraits seem to leap from the canvas. But how did he achieve his effects in a time long before projectors, computers and other 21st-century tools? The answer to that question could be boiled down to one word: science. As Steph Yin reports for The New York Times, new research suggests that Rembrandt may have relied on complex optics while he painted.\r\n\r\nIn a new paper published in the Journal of Optics, two independent researchers from the U.K. posit that Rembrandt used projections in his work. They demonstrate that Rembrandt could have used optical equipment like mirrors, camera obscuras and lenses to project images of his subjects onto papers and canvas. The images could then have been used to create technically accurate proportions and facial details, which were later etched or painted. The researchers didn’t just rely on contemporary accounts to piece together their theory; rather, they made calculations of things like head size and recreated projection setups that would have allowed the painter to achieve some of his most beautiful effects.",
+        "published_date": "2024-09-19T09:54:59.152Z",
+        "topic": 4,
+        "publishers": [
+          17
+        ]
+      }
+    },
+    {
+      "model": "newspaper.newspaper",
+      "pk": 10,
+      "fields": {
+        "title": "The Painting  ‘Impressionism’ Debuts in America",
+        "context": "In 1874, a group of rebellious painters—including Claude Monet, Paul Cézanne and Edgar Degas—exhibited their work in Paris. They would become known as the Impressionists, and they painted scenes from everyday life using bright colors and visible brushstrokes.\r\n\r\nNow, an exhibition marking the 150th anniversary of that historic show has landed in Washington, D.C. First shown at Paris’ Musée d’Orsay and now on display at Washington’s National Gallery of Art, “Paris 1874: The Impressionist Moment” reunites many of the paintings first featured in the 1874 exhibition—including Monet’s Impression, Sunrise, which has never before been shown in the United States.\r\n\r\n“If there’s one painting that is the absolute icon of this moment and show, it’s Claude Monet’s Impression, Sunrise,” Kimberly Jones, curator of 19th-century French painting at the National Gallery of Art, tells Town & Country’s Adam Rathe. “It’s the painting that gave the movement its name.”",
+        "published_date": "2024-09-19T09:51:35.256Z",
+        "topic": 4,
+        "publishers": [
+          18
+        ]
+      }
+    },
+    {
+      "model": "newspaper.newspaper",
+      "pk": 6,
+      "fields": {
+        "title": "Test Title 6",
+        "context": "test text news 6",
+        "published_date": "2024-09-09T17:42:18.007Z",
+        "topic": 3,
+        "publishers": [
+          1
+        ]
+      }
+    },
+    {
+      "model": "newspaper.newspaper",
+      "pk": 5,
+      "fields": {
+        "title": "Test Title 5",
+        "context": "test text news 5 updated\r\ntest text news 5 updated\r\ntest text news 5 updated\r\ntest text news 5 updated\r\ntest text news 5 updated\r\ntest text news 5 updated\r\ntest text news 5 updated\r\ntest text news 5 updated\r\ntest text news 5 updated\r\ntest text news 5 updatedtest text news 5 updated\r\ntest text news 5 updated\r\ntest text news 5 updatedtest text news 5 updatedtest text news 5 updatedtest text news 5 updated\r\ntest text news 5 updatedtest text news 5 updated\r\ntest text news 5 updated\r\ntest text news 5 updated",
+        "published_date": "2024-09-09T17:41:43.570Z",
+        "topic": 4,
+        "publishers": []
+      }
+    },
+    {
+      "model": "newspaper.newspaper",
+      "pk": 4,
+      "fields": {
+        "title": "Test Title 4",
+        "context": "test text news 4 change date",
+        "published_date": "2024-09-09T17:41:09.420Z",
+        "topic": 1,
+        "publishers": []
+      }
+    },
+    {
+      "model": "newspaper.newspaper",
+      "pk": 3,
+      "fields": {
+        "title": "Test Title 3",
+        "context": "test text news 3",
+        "published_date": "2024-09-09T17:40:44.157Z",
+        "topic": 6,
+        "publishers": []
+      }
+    },
+    {
+      "model": "newspaper.newspaper",
+      "pk": 2,
+      "fields": {
+        "title": "Test Title 2",
+        "context": "test text news 2",
+        "published_date": "2024-09-09T17:39:49.494Z",
+        "topic": 2,
+        "publishers": []
+      }
+    },
+    {
+      "model": "newspaper.newspaper",
+      "pk": 1,
+      "fields": {
+        "title": "Test Title 1",
+        "context": "Test text to news 1? change date",
+        "published_date": "2024-09-08T15:01:25.077Z",
+        "topic": 3,
+        "publishers": [
+          1
+        ]
+      }
+    }
+  ],
+  "Model3": [
+    {
+      "model": "newspaper.redactor",
+      "pk": 18,
+      "fields": {
+        "password": "pbkdf2_sha256$600000$8OqAgM9W3QPgiQe95w08YV$7HlpPx0XUdWkVGQiQL6yVcm2CezbjGctwAb5N7wSm6Q=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "Emmy",
+        "first_name": "Emma",
+        "last_name": "Tucker",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2024-09-18T09:47:38Z",
+        "years_of_experience": 4,
+        "groups": [],
+        "user_permissions": []
+      }
+    },
+    {
+      "model": "newspaper.redactor",
+      "pk": 13,
+      "fields": {
+        "password": "pbkdf2_sha256$600000$r7Yt7EqBPudPBorx5HrBY1$tfGdThnwfvQALbi8LJ7ULhlfLmI42mVkqlGdpaNQdkg=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "GatWe",
+        "first_name": "Catherine",
+        "last_name": "Weiner",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-09-18T09:43:47Z",
+        "years_of_experience": 0,
+        "groups": [],
+        "user_permissions": []
+      }
+    },
+    {
+      "model": "newspaper.redactor",
+      "pk": 14,
+      "fields": {
+        "password": "pbkdf2_sha256$600000$cRr9o1PMzb5MmqUvJ2NByI$qLCCJwIAZyfEVZ+IIAcX7T4EhaesdZr2PN7L6tv0G/k=",
+        "last_login": null,
+        "is_superuser": true,
+        "username": "Gerardo",
+        "first_name": "Gerard",
+        "last_name": "Baker",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2024-09-18T09:44:38Z",
+        "years_of_experience": 2,
+        "groups": [],
+        "user_permissions": []
+      }
+    },
+    {
+      "model": "newspaper.redactor",
+      "pk": 19,
+      "fields": {
+        "password": "pbkdf2_sha256$600000$nsg5DDrrccFhCd13aXPiZQ$cDQifWe2hRmocUYuM0m4ReyUqYFSoDGzQmoSeKJ1gA0=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "Hollander",
+        "first_name": "John",
+        "last_name": "Mulholland",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2024-09-18T09:48:41Z",
+        "years_of_experience": 6,
+        "groups": [],
+        "user_permissions": []
+      }
+    },
+    {
+      "model": "newspaper.redactor",
+      "pk": 17,
+      "fields": {
+        "password": "pbkdf2_sha256$600000$fwJ4OTmJtm5BIYpD26Xc4z$vchcp47EKwhHSKlOIVWiK238hzuGDuzUoLAUMQBt6VQ=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "JB",
+        "first_name": "James",
+        "last_name": "Bennett",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2024-09-18T09:47:00Z",
+        "years_of_experience": 1,
+        "groups": [],
+        "user_permissions": []
+      }
+    },
+    {
+      "model": "newspaper.redactor",
+      "pk": 12,
+      "fields": {
+        "password": "pbkdf2_sha256$600000$EF0uq4h9gai0HNIqn0hzdn$LCg4ND3UxxRI1Mao1Dt4ThWNF0qn/n4ozbWRc1PV3KU=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "JLandman",
+        "first_name": "Jonathan",
+        "last_name": "Landman",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2024-09-18T09:43:01Z",
+        "years_of_experience": 5,
+        "groups": [],
+        "user_permissions": []
+      }
+    },
+    {
+      "model": "newspaper.redactor",
+      "pk": 20,
+      "fields": {
+        "password": "pbkdf2_sha256$600000$6OzkSClv1FYjaPuQHipYdD$/I60CDTOOyCOAJUW7bzyD9TXFuoBXHkNJ/LOJOMB0VY=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "JoLe",
+        "first_name": "Jonathan",
+        "last_name": "Levine",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2024-09-18T09:49:25Z",
+        "years_of_experience": 5,
+        "groups": [],
+        "user_permissions": []
+      }
+    },
+    {
+      "model": "newspaper.redactor",
+      "pk": 15,
+      "fields": {
+        "password": "pbkdf2_sha256$600000$UPZcJS6wBfTJC940rWNJa3$6ICkOD8DiKxGy8K/aSo1bNRPLhem6A+HE4zL6IxmJso=",
+        "last_login": null,
+        "is_superuser": true,
+        "username": "Leo",
+        "first_name": "Lionel",
+        "last_name": "Barber",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2024-09-18T09:45:32Z",
+        "years_of_experience": 6,
+        "groups": [],
+        "user_permissions": []
+      }
+    },
+    {
+      "model": "newspaper.redactor",
+      "pk": 11,
+      "fields": {
+        "password": "pbkdf2_sha256$600000$kbIeIxyVj3M4NDOqIa6UfW$pX2CyOEfTBVunaTbsMznBttNddNQZH5RadtwPs8ZhsU=",
+        "last_login": null,
+        "is_superuser": true,
+        "username": "MartiB",
+        "first_name": "Martin",
+        "last_name": "Baron",
+        "email": "martinb@admin.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2024-09-18T09:40:56Z",
+        "years_of_experience": 8,
+        "groups": [],
+        "user_permissions": []
+      }
+    },
+    {
+      "model": "newspaper.redactor",
+      "pk": 16,
+      "fields": {
+        "password": "pbkdf2_sha256$600000$VA4YXZn3KIxVCczeAcJdmt$MFZv7j//YMmCcmAgj9jsQNk45tIv57tnVEgA/ZJpgB8=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "Mick",
+        "first_name": "John",
+        "last_name": "Micklethwaite",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-09-18T09:46:27Z",
+        "years_of_experience": 0,
+        "groups": [],
+        "user_permissions": []
+      }
+    },
+    {
+      "model": "newspaper.redactor",
+      "pk": 1,
+      "fields": {
+        "password": "pbkdf2_sha256$600000$p4ZOg6DoGZwQFXzPU37aak$jUcvB6WFYp0wbMgtOeAYSSvEtHXBKG/QZ7OwkHTqybw=",
+        "last_login": "2024-09-21T17:19:43.285Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "Ivan",
+        "last_name": "Havrylyshyn",
+        "email": "admin@admin.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2024-09-08T14:47:35Z",
+        "years_of_experience": 7,
+        "groups": [],
+        "user_permissions": [
+          1,
+          2,
+          3,
+          4,
+          9,
+          10,
+          11,
+          12,
+          5,
+          6,
+          7,
+          8
+        ]
+      }
+    }
+  ]
+}
